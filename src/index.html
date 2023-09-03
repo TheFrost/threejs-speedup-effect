@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ThreeJS - Speed up effect</title>
+
+  <style>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+
+      overflow: hidden;
+      margin: 0;
+
+      font-family: Monospace;
+      font-size: 13px;
+      line-height: 24px;
+
+      background: linear-gradient(to bottom, #154277 0%, #576e71 30%, #e1c45e 70%, #b26339 100%);
+      color: #fff;
+    }
+
+    #info {
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: center;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      pointer-events: none;
+    }
+
+    #info span {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="info">
+    Press and hold <span>Space Bar / Touch screen</span> to Speed up
+  </div>
+
+  <canvas id="canvas"></canvas>
+
+  <script type="module" src="js/index.js"></script>
+
+</body>
+
+</html>

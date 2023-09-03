@@ -1,0 +1,32 @@
+{
+  "name": "threejs-boilerplate",
+  "version": "2.0.0",
+  "author": "TheFrost <frost084@gmail.com>",
+  "license": "MIT",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "rm -rf .cache/; parcel --open",
+    "build": "rm -rf dist/; parcel build --public-url '.' --no-source-maps"
+  },
+  "dependencies": {
+    "cannon-es": "^0.18.0",
+    "cannon-es-debugger": "^0.1.4",
+    "gsap": "^3.12.2",
+    "stats.js": "^0.17.0",
+    "three": "latest",
+    "tweakpane": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "@parcel/transformer-glsl": "latest",
+    "parcel": "latest",
+    "parcel-reporter-static-files-copy": "^1.3.0",
+    "standard": "^14.3.1"
+  },
+  "standard": {
+    "parser": "@babel/eslint-parser"
+  }
+}
