@@ -28,5 +28,8 @@
   },
   "standard": {
     "parser": "@babel/eslint-parser"
+  },
+  "resolutions": {
+    "htmlnano": "2.0.3"
   }
 }
