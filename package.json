@@ -7,7 +7,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "rm -rf .cache/; parcel --open",
-    "build": "rm -rf dist/; parcel build --public-url '.' --no-source-maps"
+    "build": "parcel build"
   },
   "dependencies": {
     "cannon-es": "^0.18.0",
