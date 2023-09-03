@@ -41,6 +41,24 @@
     #info span {
       color: red;
     }
+
+    #button {
+      position: fixed;
+      bottom: 16px;
+      right: 16px;
+      padding: 12px;
+      border-radius: 50%;
+      margin-bottom: 0px;
+      background-color: #FFF;
+      opacity: .9;
+      z-index: 999;
+      box-shadow: 0 0 4px rgba(0, 0, 0, .15);
+    }
+
+    #button img {
+      display: block;
+      width: 20px;
+    }
   </style>
 </head>
 
@@ -50,6 +68,11 @@
   </div>
 
   <canvas id="canvas"></canvas>
+
+  <a id="button" target="_blank" href="https://github.com/TheFrost/threejs-speedup-effect"
+    title="View source code on GitHub">
+    <img src="/static/code_icon.svg">
+  </a>
 
   <script type="module" src="js/index.js"></script>
 
